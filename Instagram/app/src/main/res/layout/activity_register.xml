@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="utkarshjain.instagram.Register">
+
+    <EditText
+        android:id="@+id/rEmail"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/rConPass"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/rConPass"
+        android:layout_marginTop="227dp"
+        android:background="@drawable/inputfield"
+        android:ems="10"
+        android:hint="Email..."
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:paddingRight="0dp"
+        android:paddingTop="5dp"
+        android:textSize="22sp" />
+
+
+    <EditText
+        android:id="@+id/rPass"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/rEmail"
+        android:layout_alignStart="@+id/rEmail"
+        android:layout_below="@+id/rEmail"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/inputfield"
+        android:ems="10"
+        android:hint="Password (min.6 char)"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:paddingRight="0dp"
+        android:paddingTop="5dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/rConPass"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/rPass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/inputfield"
+        android:ems="10"
+        android:hint="Confirm Password..."
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:paddingRight="0dp"
+        android:paddingTop="5dp"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/rRegister"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/rConPass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/newh"
+        android:text="Register"
+        android:textSize="18sp" />
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Instagram</string>
+    <string name="facebook_app_id">1941766746140850</string>
+    <string name="fb_login_protocol_scheme">fb1941766746140850</string>
+
+    <string name="title_activity_register">Register</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

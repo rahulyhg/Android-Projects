@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="utkarshjain.fireapp.Register">
+
+    <ImageView
+        android:id="@+id/firebaseimg"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        app:srcCompat="@drawable/firebase" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firebaseimg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:fontFamily="serif-monospace"
+        android:text="Firebase Register"
+        android:textAlignment="center"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/rEmail"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="0dp"
+        android:paddingTop="5dp"
+        android:background="@drawable/inputfield"
+        android:ems="10"
+        android:hint="Email..."
+        android:inputType="textEmailAddress"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/rPass"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/inputfield"
+        android:ems="10"
+        android:hint="Password (min.6 char)"
+        android:paddingLeft="10dp"
+        android:paddingRight="0dp"
+        android:paddingTop="5dp"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:layout_below="@+id/rEmail"
+        android:layout_alignLeft="@+id/rEmail"
+        android:layout_alignStart="@+id/rEmail" />
+
+    <EditText
+        android:id="@+id/rConPass"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/rPass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/inputfield"
+        android:ems="10"
+        android:hint="Confirm Password..."
+        android:paddingLeft="10dp"
+        android:paddingRight="0dp"
+        android:paddingTop="5dp"
+        android:inputType="textPassword"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/rRegister"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/rConPass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/button"
+        android:text="Register"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
